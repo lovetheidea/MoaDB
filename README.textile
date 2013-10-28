@@ -33,4 +33,3 @@ This project is a work in progress. Bugs, issues or improvements are very welcom
 
 Feel free to add contributions to Moa-db. Make sure your methods are
 tested on the support browsers, and that any new functionality includes appropriate comments.
-
