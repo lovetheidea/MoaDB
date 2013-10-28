@@ -1,4 +1,4 @@
-# Moa[db] 
+# Moa(db)
 
 ## What is it?
 Moa[db] is a web-based PHP **[Mongodb](http://mongodb.org)** GUI application.
