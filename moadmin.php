@@ -3307,7 +3307,7 @@ if (isset($_GET['collection'])) {
 	$collection = get::htmlentities($_GET['collection']);
 	unset($_GET['collection']);
 }
-if (isset($accessControl) && !isset($_SESSION['user']) || 1 == 1) {
+if (isset($accessControl) && !isset($_SESSION['user'])) {
 	if (isset($_POST['username'])) {
 		$_POST = array_map('trim', $_POST);
 		if (isset($accessControl[$_POST['username']]) && $accessControl[$_POST['username']] == $_POST['password']) {
@@ -3316,7 +3316,7 @@ if (isset($accessControl) && !isset($_SESSION['user']) || 1 == 1) {
 			$_POST['errors']['username'] = 'Incorrect username or password';
 		}
 	}
-	if (!isset($_SESSION['user']) || 1 == 1) {
+	if (!isset($_SESSION['user'])) {
 	?>
 	<div class="col-md-offset-4">
 		<form role="form" class="col-md-5">
