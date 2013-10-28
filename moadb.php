@@ -13,7 +13,7 @@ date_default_timezone_set("GMT");
  *
  * @version 1.0.0
  * @author Jason Pickering
- * @license GPL v3 - http://vork.us/go/mvz5
+ * @license GPL
  */
 /**
  * To enable password protection, uncomment below and then change the username => password
