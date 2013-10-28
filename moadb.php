@@ -56,7 +56,7 @@ define('OBJECT_LIMIT', 100);
 define('DEBUG_MODE', false);
 
 /**
- * Vork core-functionality tools
+ * Core-functionality tools
  */
 class get {
 
