@@ -1,10 +1,10 @@
 # Moa[db] 
 
 ## What is it?
-Mongo[db] is a **[mongodb](http://mongodb.org)** GUI application.
-This repository is a web version of mongo database. 
+Moa[db] is a web-based PHP **[Mongodb](http://mongodb.org)** GUI application.
+This repository is a single php file requring **[mongoDB install](http://docs.mongodb.org/manual/installation/)**. 
 
-![mongohub splash](https://github.com/lovetheidea/Moa-db/blob/master/screenshots/home.png?raw=true)
+![moa-db splash](https://github.com/lovetheidea/Moa-db/blob/master/screenshot/home.png?raw=true)
 
 ## Browsers
 
@@ -12,11 +12,11 @@ Google Chome, Firefox, Safari.
 
 ## Installation
 
-
+--
 
 ## Build
 
-
+--
 
 ## Current Status
 
