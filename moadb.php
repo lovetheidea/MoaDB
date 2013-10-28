@@ -6,14 +6,13 @@ error_reporting(E_ALL | E_STRICT);
 date_default_timezone_set("GMT");
 
 /**
- * phpMoAdmin - built on a stripped-down version of the high-performance Vork Enterprise Framework
+ * moa[db]- forked from phpMoAdmin.
  *
  * www.phpMoAdmin.com
- * www.Vork.us
  * www.MongoDB.org
  *
- * @version 1.1.3
- * @author Eric David Benari, Chief Architect, phpMoAdmin
+ * @version 1.0.0
+ * @author Jason Pickering
  * @license GPL v3 - http://vork.us/go/mvz5
  */
 /**
