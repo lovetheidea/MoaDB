@@ -1,58 +1,44 @@
-Version 1.1.3
+Version 1.0.0
+
+Code improvements
+Replaced all themes with clean GUI
+Added find and remove query validation
+Replaced all confirm() boxes with on-page modal confirms
+Hold rename collection
+Hold indexing
+Removed $natural sorting option
+Removed GoChat
+Initial stable release
+
+Previous Versions :
 Added support for MongoClient connection manager
 Made phpMoAdmin SSL-friendly
-
-Version 1.1.2
 Added GoChat
-
-Version 1.1.1
 Added simple-gray theme (thank you Xeoncross)
-
-Version 1.1.0
 Added import/export of data in JSON format
 Updated all formHelper methods and get::url() to the improved versions in the current Vork core
-
-Version 1.0.9
 Added ability to limit usage to a whitelist of databases (ignoring any others on the same server)
 Added REPLICA_SET option
 Switched default theme to trontastic (in response to user-feedback)
-
-Version 1.0.8
 Added explicit typecasting to search and automated numeric-search typecasting
 Added $natural sorting option
-
-Version 1.0.7
 Added search for exact-text, text with * wildcards, regex or JSON (with Mongo-operators enabled)
 Added query via JSON or PHP-array
 Added rename collection
 Set destructive actions to not repeat upon page-refresh
 Added application bit-depths to stats
-
-Version 1.0.6
 Added object-result pagination support with adjustable limit
 Added display of object counts to list of collections
-
-Version 1.0.5
 Minor enhancements to increase universality of configuration-free operation
-
-Version 1.0.4
 Added design themes and set original design into classic theme
 Replaced all JavaScript confirm() boxes with on-page modal confirms
-
-Version 1.0.3
 Added sorting of data objects
 Added auto-focus to login box in login form
 Added display of the number of data objects in a collection
 Added row/result-numbers to lists of databases, collections, indexes and collection-data objects.
 Improved stats output
-
-Version 1.0.2
 Added stats feature
 Added display of database sizes
-
-Version 1.0.1
 Added support for remote & authenticated connections
 Added exceptions-to-be-thrown when connection to Mongo cannot be established (includes instructions on how to fix issue)
 
-Version 1.0.0
-Initial stable release
