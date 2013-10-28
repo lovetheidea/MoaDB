@@ -1,5 +1,5 @@
 <?php
-error_reporting(E_ALL | E_STRICT);
+
 /**
  * Set default Time Zone. GMT default
  */
