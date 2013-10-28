@@ -1,111 +1,36 @@
-h1. phpMoAdmin
+# Moa[db] 
 
-h2. MongoDB administration tool for PHP
+## What is it?
+Mongo[db] is a **[mongodb](http://mongodb.org)** GUI application.
+This repository is a web version of mongo database. 
 
-h3. Built on a stripped-down version of the high-performance Vork Enterprise Framework
+![mongohub splash](https://github.com/lovetheidea/Moa-db/blob/master/screenshots/home.png?raw=true)
 
-    "phpMoAdmin":http://www.phpMoAdmin.com - "MongoDB":http://www.MongoDB.org - "Vork":http://www.Vork.us
+## Browsers
 
-    * *Nothing to configure* - place the moadmin.php file anywhere on your web site and *it just works!*
-    * Fast *AJAX-driven XHTML 1.1* interface operates consistently in every browser!
-    * *Self-contained in a single 110kb file!*
-    * Works on any version of PHP5 with the MongoDB NoSQL database & Mongo PHP driver installed and running.
-    * Instructional error messages - *phpMoAdmin can be used as a PHP-Mongo connection debugging tool*
-    * Super flexible - search for:
-        + exact-text
-        + (type-casted) value
-        + text with * wildcards
-        + Regular Expressions (regex)
-        + JSON (with Mongo-operators enabled)
-    * Import/export data in JSON format
-        + Export full collections or limit recordset to the results of a query
-            - Option to export exact page contents or entire query results (ignoring limit and skip values)
-        + Import can specify:
-            - Insert new records only
-            - Save / upsert (adds new & overwrites existing with same _id)
-            - Update only pre-existing records
-            - Insert until a duplicate is found and then halt import
-    * Option to enable password-protection for one or more users
-        + To activate protection, just add the username-password(s) to the array at the top of the file.
-    * E_STRICT PHP code is formatted to the Zend Framework coding standards
-        + Fully-documented in the phpDocumentor DocBlock standard.
-    * Textareas can be resized by dragging/stretching the lower-right corner
-    * Option to query MongoDB using JSON or a PHP-array syntax
-    * Multiple design themes to choose from
-    * *Free & open-source!* Released under the GPLv3 FOSS license!
+Google Chome, Firefox, Safari.
 
-"www.phpMoAdmin.com":http://www.phpMoAdmin.com
+## Installation
 
-h2. Screenshots
 
-h3. Object display (Full-mode)
-!http://www.phpmoadmin.com/file/swankypurse.png?t!:http://www.phpmoadmin.com/screenshot?screenshot=swankypurse
 
-h3. Object display (Compact-mode)
-!http://www.phpmoadmin.com/file/compact.png?t!:http://www.phpmoadmin.com/screenshot?screenshot=compact
+## Build
 
-h3. Object editor - Drag-corner to resize textarea
-!http://www.phpmoadmin.com/file/editor.png?t!:http://www.phpmoadmin.com/screenshot?screenshot=editor
 
-h3. Mongo Statistics - Stats, error log, versions & system info
-!http://www.phpmoadmin.com/file/stats.png?t!:http://www.phpmoadmin.com/screenshot?screenshot=stats
 
-h2. Features
+## Current Status
 
-    * Database
-          o List with data sizes
-          o Create/drop
-          o Repair
-    * Collection
-          o Show collections
-          o Create/drop collection
-          o Rename collection
-          o List indexes
-          o Create/drop indexes
-                - multiple keys
-                - ascending/descending
-                - unique index
-    * Data objects
-          o Search for exact-text, (type-casted) value, text with * wildcards, regex or JSON (with Mongo-operators enabled)
-          o Show objects with 3-different viewing options (full, compact & uniform)
-          o Option to query MongoDB using JSON or a PHP array
-          o Sort by any key within your data object (even nested sub-keys!) with ascending/descending option
-                - Option to sort by $natural for rapid browsing of large datasets
-          o Create/delete objects
-          o Edit object data using standard PHP object/array syntax
-          o Export to JSON format
-                - Full collections or limited recordset based on the results of a query
-                - Export exact page contents or entire query results (ignoring limit and skip values)
-          o Import from JSON format
-                - Insert new records only
-                - Save / upsert (adds new & overwrites existing with same _id)
-                - Update only pre-existing records
-                - Insert until a duplicate is found and then halt import
-    * Mongo GridFS
-          o GridFS objects automatically link GridFS chunks to GridFS files
-    * MongoDB stats
-          o Uptime, memory, etc.
-          o Log of previous errors
-          o Mongo-PHP settings
-          o Version & bit-depth of MongoDB, Mongo PHP driver, phpMoAdmin, etc.
-    * Optional password-protection for one or more users
+This project is a work in progress. Bugs, issues or improvements are very welcome.
 
-h2. Themes
+## History
 
-!http://www.phpmoadmin.com/file/swankypurse.png?t!:http://www.phpmoadmin.com/screenshot?screenshot=swankypurse
+** [1.0.0] **
+	
+	- Inital commit;
+	- Forked phpMongoAdmin.
 
-!http://www.phpmoadmin.com/file/trontastic.png?t!:http://www.phpmoadmin.com/screenshot?screenshot=trontastic
+## Contribute
 
-!http://www.phpmoadmin.com/file/classic.png?t!:http://www.phpmoadmin.com/screenshot?screenshot=classic
+Feel free to add contributions to Moa-db. Make sure your methods are
+tested on the support browsers, and that any new functionality includes appropriate comments.
 
-!http://www.phpmoadmin.com/file/swankypurse-confirm.png!
-
-!http://www.phpmoadmin.com/file/trontastic-confirm.png!
-
-!http://www.phpmoadmin.com/file/classic-confirm.png!
-
-h2. Contact phpMoAdmin
-
-    "www.phpMoAdmin.com":http://www.phpMoAdmin.com
-
-!http://www.phpmoadmin.com/file/phpMoAdmin-MongoDB-Admin-GUI.jpg!
