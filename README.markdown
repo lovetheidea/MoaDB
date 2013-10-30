@@ -43,7 +43,7 @@ Bugs, issues and improvements are very welcome.
 
 ### Contribute
 
-This project started out as a quick fix for a GUI to support mongo ssl, but I have now 
+This project started out as a quick fix, for a GUI to support mongo ssl, but I have now 
 decided to continue improving it and share the love.
 Feel free to contribute to MoaDB. Make sure your methods are
 tested on the support browsers, and that any new functionality includes appropriate comments.
