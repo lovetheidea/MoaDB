@@ -1,0 +1,219 @@
+/* 
+    Document   : moadb
+    Created on : 29-Oct-2013, 22:09:58
+    Author     : jasonpickering
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* Space out content a bit */
+body {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+	border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 40px;
+	padding-bottom: 19px;
+}
+.header h3.text-muted,h3.text-muted {
+	font-family: "Exo", sans-serif;
+	font-weight: 900;
+	color:black;
+	font-size: 34px;
+}
+
+/* Custom page footer */
+.footer {
+	padding-top: 19px;
+	color: #777;
+	border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+}
+.container-narrow > hr {
+	margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+	text-align: center;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+/* Supporting marketing content */
+.marketing {
+	margin: 40px 0;
+	word-break: break-all;
+}
+.marketing .col-lg-2, .marketing .col-lg-3{
+	padding-top:5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.marketing .col-lg-3.database.click:hover{
+	background:#ddd;
+	cursor:pointer;
+}
+.marketing p {
+	font-size: 12px;
+}
+.marketing img {
+	width: 50%;
+}
+.marketing p + h4 {
+	margin-top: 28px;
+}
+
+.database a.close {
+	background: #F00;
+	border-radius: 16px;
+	padding: 0px 5px 3px 6px;
+	text-shadow: none;
+	color: #FFF;
+	position: absolute;
+	margin-left: 27px;
+	margin-top: -16px;
+}
+.nav>li>a.open, .nav>li>a.active{
+	text-decoration: none;
+	background-color: #EEE;
+}
+#mongo_collections { 
+	float:left;
+	width: 36%;
+	border: 1px solid #ddd;
+	font-size: 15px;
+	overflow-y: scroll;
+	height: 462px;
+	border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+	padding: 10px;
+	background: #FFF;
+	position: relative;
+	top: -48px;
+	left: -59px;
+}
+.jumbotron { max-height: 462px; }
+#mongo_collections table { font-size: 15px;}
+#mongo_collections table tr td {line-height: 24px;}
+#mongo_collections table tr td icon {top: 6px;
+									 position: relative;}
+#mongo_collections table tr td a:not(.close) { text-overflow: ellipsis;
+											   width: 140px;
+											   white-space: nowrap;
+											   display: block;
+											   overflow: hidden;}
+
+#main-content { 
+	width: 64%;
+	position: relative;
+	float: right;
+	font-size: 15px;
+	margin-top:-25px;
+}
+#main-content .content-scroll{ 
+	overflow-y: scroll;
+	height: 360px;
+	padding-top: 20px;
+}
+#main-content .content-scroll.full{ height:410px;}
+#main-content table.table-hover td {
+	line-height: 2;
+}
+#main-content table.table-hover td:last-child {
+	padding-left: 30px;
+}
+#main-content table.table-hover td:nth-child(-n+3){
+	width:30px;
+}
+#main-content table.table-hover tr:nth-child(4n+1){ background:#E9E9E9;}
+#main-content table{font-size: 13px;}
+#main-content table.stats { color: #bbb;
+							opacity:0.6;-moz-opacity:0.6;
+							transition: opacity 1s, color 1s;
+							-webkit-transition: opacity 1s, color 1s;}
+#main-content table.stats:hover { color: #444; opacity:1;-moz-opacity:1;}
+#main-content table.table-hover tr:nth-child(2n+1) [class^="icon-"],
+#main-content table.table-hover tr:nth-child(2n+1) [class*=" icon-"] {
+	font-size:15px;
+	position: relative;
+	top: 6px;
+}
+#main-content textarea.input-lg {
+	height:345px;
+}
+#main-content .alert.stats{
+	padding:0; margin-bottom:10px;
+}
+#main-content .opacity{
+	opacity:0.4;-moz-opacity:0.4;
+}
+.aotoggle { cursor:pointer;}
+.noMargin { margin: 0;}
+.nav>li>a.divider:hover, .nav>li>a.divider:focus {
+	background-color: transparent;
+}
+
+body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom {
+	margin-right: 0px;
+}
+#modal h4, #modal .input-lg {font-size:16px}
+.hidden {display:none;}
+
+#mongo_rows .btn-default {
+	font-weight: bold;}
+#mongo_rows .running {border-color: #FFA500;
+					  background: #FDF9F2;}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+	/* Remove the padding we set earlier */
+	.header,
+	.marketing,
+	.footer {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	/* Space out the masthead */
+	.header {
+		margin-bottom: 30px;
+	}
+	/* Remove the bottom border on the jumbotron for visual effect */
+	.jumbotron {
+		border-bottom: 0;
+	}
+}
+.container {
+	max-width: 920px;
+}
+ul, li{ list-style-type: none;}
+#modal .btn-block{text-align: left;
+				  text-indent: 15px;font-size: 15px;}
+.help-inline {
+	display: inline;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	color: #737373;
+}
+a { cursor:pointer;}
+

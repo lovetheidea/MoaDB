@@ -1,0 +1,7 @@
+## Change this htaccess file so unauthorised users do not have access to your database.
+
+#<Files .htaccess>
+#Order Deny,Allow
+#Deny From All
+#Allow From xxx.xxx.xxx.xxx 127.0.0.1
+#</Files>
