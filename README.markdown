@@ -6,6 +6,10 @@ Helpful query validation, amazing lightweight UI , advanced nested and wildcard 
 
 ### Browsers
 
+![chrome](http://www.w3schools.com/images/compatible_chrome.gif) 
+![firefox](http://www.w3schools.com/images/compatible_firefox.gif) 
+![safari](http://www.w3schools.com/images/compatible_safari.gif) 
+
 Chome, Firefox, Safari. 
 Some might think of it as a limitation, but I'am calling it a feature: Not supporting IE saves time.
 
@@ -27,8 +31,8 @@ Finally go to the URL pointing to moaDB on your web site.
 
 ### Status
 
-This project is a work in progress. 
-Bugs, issues or improvements are very welcome.
+This project is new and a work in progress. 
+Bugs, issues and improvements are very welcome.
  
 
 ### History
@@ -39,11 +43,7 @@ Bugs, issues or improvements are very welcome.
 
 ### Contribute
 
-The project was created quickly for a particular use-case but I have now 
+This project started out as a quick fix for a GUI to support mongo ssl, but I have now 
 decided to continue improving it and share the love.
 Feel free to contribute to MoaDB. Make sure your methods are
 tested on the support browsers, and that any new functionality includes appropriate comments.
-
-### Documentation
-
-See [the PHP manual](http://php.net/mongo).
