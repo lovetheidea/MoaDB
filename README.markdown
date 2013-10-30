@@ -11,7 +11,7 @@ Helpful query validation, amazing lightweight UI , advanced nested and wildcard 
 ![safari](http://www.w3schools.com/images/compatible_safari.gif) 
 
 Chome, Firefox, Safari. 
-Some might think of it as a limitation, but I'am calling it a feature: Not supporting IE saves time.
+Some might think of it as a limitation, but I'am calling it a feature: No support for IE at this time.
 
 ### Getting Started
 
