@@ -1,44 +1,18 @@
 Version 1.0.0
 
-Code improvements
-Replaced all themes with clean GUI
-Added find and remove query validation
-Replaced all confirm() boxes with on-page modal confirms
-Hold rename collection
-Hold indexing
-Removed $natural sorting option
-Removed GoChat
-Initial stable release
+ToAdd rename collection
+ToAdd indexing feature
 
-Previous Versions :
-Added support for MongoClient connection manager
-Made phpMoAdmin SSL-friendly
-Added GoChat
-Added simple-gray theme (thank you Xeoncross)
-Added import/export of data in JSON format
-Updated all formHelper methods and get::url() to the improved versions in the current Vork core
-Added ability to limit usage to a whitelist of databases (ignoring any others on the same server)
-Added REPLICA_SET option
-Switched default theme to trontastic (in response to user-feedback)
-Added explicit typecasting to search and automated numeric-search typecasting
-Added $natural sorting option
+Added find and remove query validation
 Added search for exact-text, text with * wildcards, regex or JSON (with Mongo-operators enabled)
-Added query via JSON or PHP-array
-Added rename collection
-Set destructive actions to not repeat upon page-refresh
-Added application bit-depths to stats
-Added object-result pagination support with adjustable limit
-Added display of object counts to list of collections
-Minor enhancements to increase universality of configuration-free operation
-Added design themes and set original design into classic theme
-Replaced all JavaScript confirm() boxes with on-page modal confirms
 Added sorting of data objects
-Added auto-focus to login box in login form
 Added display of the number of data objects in a collection
 Added row/result-numbers to lists of databases, collections, indexes and collection-data objects.
-Improved stats output
+Added import/export of JSON.
 Added stats feature
+Added object-result pagination support with adjustable limit
 Added display of database sizes
 Added support for remote & authenticated connections
-Added exceptions-to-be-thrown when connection to Mongo cannot be established (includes instructions on how to fix issue)
-
+Added SSL-friendly feature
+Added support for MongoClient connection manager
+Inital version.
