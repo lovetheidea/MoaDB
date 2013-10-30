@@ -15,4 +15,4 @@ Added display of database sizes
 Added support for remote & authenticated connections
 Added SSL-friendly feature
 Added support for MongoClient connection manager
-Inital version.
+Initial version.
