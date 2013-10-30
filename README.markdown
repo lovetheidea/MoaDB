@@ -1,8 +1,8 @@
 ![moaDB splash](https://github.com/lovetheidea/MoaDB/blob/master/moaDB/resources/images/home.png?raw=true)
 
 ### What is moaDB?
-MoaDB is a free web-based **[MongoDB](http://mongodb.org)** GUI. The project is focused on maintaining a very simple interface along with an easy setup.
-Helpful query validation, amazing lightweight UI , advanced nested and wildcard searching, and much more.
+MoaDB is a free web-based **[MongoDB](http://mongodb.org)** GUI. The project is focused on round a very simple interface and a really easy setup.
+Helpful query validation, amazing lightweight UI , advanced nested and wildcard searching, and much more in the box.
 
 ### Browsers
 
