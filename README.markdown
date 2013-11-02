@@ -1,8 +1,8 @@
 ![moaDB splash](https://github.com/lovetheidea/MoaDB/blob/master/screenshots/home.png?raw=true)
 
-### What is moaDB?
-MoaDB is a free web-based **[MongoDB](http://mongodb.org)** GUI. The project is focused on round a very simple interface and a really easy setup.
-Helpful query validation, amazing lightweight UI , advanced nested and wildcard searching, and much more in the box.
+### What is Moa(db)?
+Moa(db) is a free web-based **[MongoDB](http://mongodb.org)** GUI. The project is focused on a very simple interface and a drang & drop setup.
+Helpful query validation, amazing lightweight UI , JSON imports & exports, SSL support and much more in the box.
 
 **[Checkout more screen shots](https://github.com/lovetheidea/MoaDB/blob/master/screenshots/)**
 
@@ -17,9 +17,9 @@ Some call it a limitation, but I'am calling it a feature: No support for IE at t
 
 ### Getting Started
 
-MoaDB works with PHP5+ and requires **[Mongo PHP Driver](https://github.com/mongodb/mongo-php-driver/tree/master)** to be installed and running.
+moa(db) works with PHP5+ and requires **[Mongo PHP Driver](https://github.com/mongodb/mongo-php-driver/tree/master)** to be installed and running.
 
-To setup MoaDB :
+To setup moa(db) :
 
  	- Copy the `moaDB` folder to a secure path on your web site.
  
