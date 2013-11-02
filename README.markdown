@@ -4,7 +4,7 @@
 Moa(db) is a free web-based **[MongoDB](http://mongodb.org)** GUI. The project is focused on a very simple interface and a drang & drop setup.
 Helpful query validation, amazing lightweight UI , JSON imports & exports, SSL support and much more in the box.
 
-**[Checkout more screen shots](https://github.com/lovetheidea/MoaDB/blob/master/screenshots/)**
+**[Checkout more screenshots](https://github.com/lovetheidea/MoaDB/blob/master/screenshots/)**
 
 ### Browsers
 
