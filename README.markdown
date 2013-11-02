@@ -1,7 +1,7 @@
 ![moaDB splash](https://github.com/lovetheidea/MoaDB/blob/master/screenshots/home.png?raw=true)
 
 ### What is Moa(db)?
-Moa(db) is a open source php **[MongoDB](http://mongodb.org)** GUI. The project is focused on a very simple interface and a drag & drop setup.
+Moa(db) is a open source PHP **[MongoDB](http://mongodb.org)** GUI. The project is focused on a very simple interface and a drag & drop setup.
 Helpful query validation, amazing lightweight UI , JSON imports & exports, SSL support and much more in the box.
 
 **[Checkout more screenshots](https://github.com/lovetheidea/MoaDB/blob/master/screenshots/)**
