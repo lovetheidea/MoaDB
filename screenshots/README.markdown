@@ -1,8 +1,8 @@
-##Moa db
+##moa(db)
 
 **[https://github.com/lovetheidea/MoaDB](https://github.com/lovetheidea/MoaDB)**
 
-Moa db is a free PHP GUI. The project is focused on a very clean interface and a drag and drop setup.
+moa(db) is a free PHP GUI. The project is focused on a very clean interface and a drag and drop setup.
 Helpful query validation, amazing lightweight UI , JSON imports & exports, SSL support and much more in the box.
 
 ![moaDB splash1](https://github.com/lovetheidea/MoaDB/blob/master/screenshots/home.png?raw=true)
