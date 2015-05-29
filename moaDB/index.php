@@ -103,7 +103,7 @@ if($showUserPassword) : ?>
 //						'style' => 'width: 40px;'))
 //					. $form->submit(array('value' => 'limit', 'class' => 'ui-state-hover'))
 //					. $form->close();
-//					
+//
 						?>
 					</div>
 					<?
@@ -116,8 +116,8 @@ if($showUserPassword) : ?>
 				if ($hasDB && isset($mo->mongo['getStats'])) :
 					?>
 					<div class="content-scroll full">
-						<div class="alert alert-success stats">You have <?= number_format($totalcount) ?> records and <?= count($mo->mongo['listCollections']) ?> collections.</div>
-						<div class="alert alert-info stats <?= $totalcount > 0 ? 'opacity' : '' ?>">To add a new collection click 'Add' in the top right-hand corner.</div>	
+						<div class="alert alert-success stats">You have <?= number_format((isset($totalcount) ? $totalcount : 0)) ?> records and <?= count($mo->mongo['listCollections']) ?> collections.</div>
+						<div class="alert alert-info stats <?= (isset($totalcount) ? 'opacity' : '') ?>">To add a new collection click 'Add' in the top right-hand corner.</div>
 						<table class="table stats">
 							<tbody>
 								<tr><td><h4>Database : <?= $db ?></h4></td></tr>
@@ -478,16 +478,16 @@ if($showUserPassword) : ?>
 		<small class="help-block">Need help? Check out the documentation here : <a href="http://docs.mongodb.org/manual/reference/method/db.collection.find/">Mongo Query Find</a></small>
 		<?php if (isset($_GET['find'])) : ?>
 			<a href="<?= $baseUrl ?>?db=<?= $db ?>&action=listRows&collection=<?= $collection ?>" class="btn btn-default">Clear query find</a>
-		<?php endif; ?>					
+		<?php endif; ?>
 	</div>
 
 	<div id="removeform" class="hidden">
 		<form action="<?= $baseUrl ?>?db=<?= $db ?>&action=listRows&collection=<?= $collection ?>&remove=query&request=<?= time() ?>" method="post" data-type="removeQuery">
-			<p class="alert alert-info">You can also remove objects manually by closing this panel and clicking the 'Edit' button in the top right-hand corner. Please take care when removing via query.</p>				
+			<p class="alert alert-info">You can also remove objects manually by closing this panel and clicking the 'Edit' button in the top right-hand corner. Please take care when removing via query.</p>
 			<div class="alert alert-warning hidden">Invalid quotations, try to <a class="swopquote">correct</a>?</div>
 			<div class="alert alert-danger hidden">Invalid json or dot-notation query, try again.</div>
 			<textarea id="removeQuery" rows="2" name="remove" class="form-control input-lg" placeholder="{ Remove query }"><?= isset($_POST['remove']) ? $_POST['remove'] : '' ?></textarea>
-			<small class="help-block">Need help? Check out the documentation here : <a href="http://docs.mongodb.org/manual/reference/method/db.collection.remove/">Mongo Query Remove</a></small>				
+			<small class="help-block">Need help? Check out the documentation here : <a href="http://docs.mongodb.org/manual/reference/method/db.collection.remove/">Mongo Query Remove</a></small>
 		</form>
 	</div>
 
@@ -529,9 +529,9 @@ if($showUserPassword) : ?>
 	</div>
 
 </div> <!-- /container -->
-<script> 
+<script>
 	//<!-- original public functions -->
- 
+
 	var mo = {};
 	var urlEncode = function(str) {
 		return escape(str).replace(/\+/g, "%2B").replace(/%20/g, "+").replace(/\*/g, "%2A").replace(/\//g, "%2F").replace(/@/g, "%40");
