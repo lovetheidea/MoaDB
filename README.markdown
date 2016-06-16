@@ -1,4 +1,7 @@
-[![stillmaintained](http://stillmaintained.com/lovetheidea/MoaDB.png)](http://stillmaintained.com/lovetheidea/MoaDB)
+# The Ultimate Open Source Web-MongoDB UI
+
+[![Build Status](https://img.shields.io/badge/moadb-pass-brightgreen.svg)](https://github.com/lovetheidea/MoaDB/)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/lovetheidea/MoaDB/raw/master/LICENSE)
 ![moaDB splash](https://github.com/lovetheidea/MoaDB/blob/master/screenshots/home.png?raw=true)
 
 ### What is moa(db)?
