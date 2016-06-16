@@ -1,15 +1,16 @@
 <?php
 
 /**
- * Copyright (C) 2013 MoaDB
+ * The MIT License (MIT)
+ * Copyright (c) 2013-2016 MoaDB
+ * Please set "short_open_tag = On" in your php.ini file 
  *
- * www.MongoDB.org
- *
- * @version 1.0.0
- * @author Jason Pickering
+ * @version 1.0.2
+ * @author Jay - Love the Idea
  * @license GPL v3
  */
 
+ini_set('mongo.long_as_object', 1);
 require_once 'resources/php/load.php';
 
 if($showUserPassword) : ?>
@@ -28,14 +29,14 @@ if($showUserPassword) : ?>
 		<button type="submit" class="btn btn-default">Submit</button>
 	</form>
 	</div>
-<? exit; endif; ?>
+<?php exit; endif; ?>
 
 <div class="container">
 	<div class="header">
         <ul class="nav nav-pills pull-right">
 			<?php if ($hasCollection) : ?>
 				<li class="active"><a data-view="CollectionRow" href="<?= $baseUrl ?>?db=<?= $db ?>&action=listRows&collection=<?= $collection ?>">&nbsp;<icon class="icon-list">&nbsp;</icon></a></li>
-			<? endif; ?>
+			<?php endif; ?>
 			<?php if ($hasDB) : ?>
 				<li <?= $hasCollection ? '' : 'class="active"' ?>><a data-view="Collections" href="<?= $baseUrl ?>?db=<?= $db ?>"><icon class="icon-inbox"></icon> Collections</a></li>
 			<?php endif; ?>
@@ -137,7 +138,7 @@ if($showUserPassword) : ?>
 											?>
 										</td>
 									</tr>
-								<? endforeach; ?>
+								<?php endforeach; ?>
 							</tbody>
 						</table>
 					</div>
@@ -536,11 +537,32 @@ if($showUserPassword) : ?>
 	var urlEncode = function(str) {
 		return escape(str).replace(/\+/g, "%2B").replace(/%20/g, "+").replace(/\*/g, "%2A").replace(/\//g, "%2F").replace(/@/g, "%40");
 	};
+	
+	//TODO
 	var repairDatabase = function(db) {
 		if(confirm("Are you sure that you want to repair and compact the " + db + " database?")) {
 			//window.location.replace("' . $baseUrl . '?db=' . $dbUrl . '&action=repairDb");
 		}
 	};
+	
+	$(document).delegate('textarea', 'keydown', function(e) { 
+ 		var keyCode = e.keyCode || e.which; 
+ 
+ 		if (keyCode == 9) { 
+ 			e.preventDefault(); 
+ 			var start = $(this).get(0).selectionStart;
+ 			var end = $(this).get(0).selectionEnd;
+
+			// set textarea value to: text before caret + tab + text after caret
+ 			$(this).val($(this).val().substring(0, start)
+ 						+ "\t"
+ 						+ $(this).val().substring(end));
+
+ 			// put caret at right position again
+ 			$(this).get(0).selectionStart = 
+ 			$(this).get(0).selectionEnd = start + 1;
+		} 
+	});
 <?php if (!$hasDB) : ?>
 		var dropDatabase = function(db) {
 			if(confirm("Are you sure that you want to drop the " + db + " database?")) {
