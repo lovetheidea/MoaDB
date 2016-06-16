@@ -46,10 +46,12 @@ Bugs, issues and improvements are very welcome.
 ** [1.0.1] **
 	
 	- Docker support;
+	- Fixes to redirect loop on fresh mongodb install;
+	- Short_Open_Tag hotfix;
 
 ** [1.0.0] **
 	
-	- Initial commit;
+	- First commit;
 
 ### Contribute
 
