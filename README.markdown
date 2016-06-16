@@ -43,6 +43,9 @@ Bugs, issues and improvements are very welcome.
  
 
 ### History
+** [1.0.1] **
+	
+	- Docker support;
 
 ** [1.0.0] **
 	
