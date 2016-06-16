@@ -47,7 +47,8 @@ class moaController {
 		if (isset($_GET['remove']))
 			$this->_dumpFormVals();
 
-		if (!isset($_POST['newdb']) && !array_key_exists($_GET['db'], $this->mongo['dbs'])) {
+		//if not trying to add new database && database not in list then redirect.
+		if (!empty($this->mongo['dbs']) && !isset($_POST['newdb']) && !array_key_exists($_GET['db'], $this->mongo['dbs'])) {
 			return load::redirect(get::url());
 		}
 
