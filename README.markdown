@@ -41,7 +41,8 @@ Finally go to the URL pointing to moaDB on your web site.
 This project is new and a work in progress. 
 Bugs, issues and improvements are very welcome.
 
-Endif syntax error
+#### Endif syntax error
+
 	- Docker support;
 	- Set "short_open_tag = On" in your php.ini file;
  
