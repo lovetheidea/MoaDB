@@ -42,7 +42,8 @@ This project is new and a work in progress.
 Bugs, issues and improvements are very welcome.
 
 Endif syntax error
-	- Set "short_open_tag = On" in your php.ini file
+	- Docker support;
+	- Set "short_open_tag = On" in your php.ini file;
  
 
 ### History
