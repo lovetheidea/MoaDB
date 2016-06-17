@@ -1,38 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Moa(db) by lovetheidea</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <title>Moa(db) by lovetheidea</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
+    <header>
+      <div class="inner">
         <h1>Moa(db)</h1>
-        <p>A free, easy, and awesome PHP MongoDB GUI</p>
+        <h2>A free, easy, and awesome PHP MongoDB GUI</h2>
+        <a href="https://github.com/lovetheidea/MoaDB" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
 
-        <p class="view"><a href="https://github.com/lovetheidea/MoaDB">View the Project on GitHub <small>lovetheidea/MoaDB</small></a></p>
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="the-ultimate-open-source-web-mongodb-ui" class="anchor" href="#the-ultimate-open-source-web-mongodb-ui" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Ultimate Open Source Web-MongoDB UI</h1>
 
+<p><a href="https://github.com/lovetheidea/MoaDB/"><img src="https://img.shields.io/badge/moadb-pass-brightgreen.svg" alt="Build Status"></a>
+<a href="https://github.com/lovetheidea/MoaDB/raw/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="MIT License"></a></p>
 
-        <ul>
-          <li><a href="https://github.com/lovetheidea/MoaDB/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/lovetheidea/MoaDB/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/lovetheidea/MoaDB">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <p><a href="http://stillmaintained.com/lovetheidea/MoaDB"><img src="http://stillmaintained.com/lovetheidea/MoaDB.png" alt="stillmaintained"></a>
-<img src="https://github.com/lovetheidea/MoaDB/blob/master/screenshots/home.png?raw=true" alt="moaDB splash"></p>
+<p><img src="https://github.com/lovetheidea/MoaDB/blob/master/screenshots/home.png?raw=true" alt="moaDB splash"></p>
 
 <h3>
-<a name="what-is-moadb" class="anchor" href="#what-is-moadb"><span class="octicon octicon-link"></span></a>What is moa(db)?</h3>
+<a id="what-is-moadb" class="anchor" href="#what-is-moadb" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is moa(db)?</h3>
 
 <p>Moa(db) is a open source PHP <strong><a href="http://mongodb.org">MongoDB</a></strong> GUI. The project is focused on a very simple interface and a drag &amp; drop setup.
 Helpful query validation, amazing lightweight UI , JSON imports &amp; exports, SSL support and much more in the box.</p>
@@ -40,15 +45,17 @@ Helpful query validation, amazing lightweight UI , JSON imports &amp; exports, S
 <p><strong><a href="https://github.com/lovetheidea/MoaDB/blob/master/screenshots/">Checkout more screenshots</a></strong></p>
 
 <h3>
-<a name="browsers" class="anchor" href="#browsers"><span class="octicon octicon-link"></span></a>Browsers</h3>
+<a id="browsers" class="anchor" href="#browsers" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Browsers</h3>
 
-<p><img src="http://www.w3schools.com/images/compatible_chrome.gif" alt="chrome"><img src="http://www.w3schools.com/images/compatible_firefox.gif" alt="firefox"><img src="http://www.w3schools.com/images/compatible_safari.gif" alt="safari"></p>
+<p><img src="http://www.w3schools.com/images/compatible_chrome.gif" alt="chrome"> 
+<img src="http://www.w3schools.com/images/compatible_firefox.gif" alt="firefox"> 
+<img src="http://www.w3schools.com/images/compatible_safari.gif" alt="safari"> </p>
 
 <p>Chome, Firefox, Safari. 
 Some call it a limitation, but I'am calling it a feature: No support for IE at this time.</p>
 
 <h3>
-<a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h3>
+<a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting Started</h3>
 
 <p>moa(db) works with PHP5+ and requires <strong><a href="https://github.com/mongodb/mongo-php-driver/tree/master">Mongo PHP Driver</a></strong> to be installed and running.</p>
 
@@ -66,33 +73,59 @@ Some call it a limitation, but I'am calling it a feature: No support for IE at t
 <p>Finally go to the URL pointing to moaDB on your web site.</p>
 
 <h3>
-<a name="status" class="anchor" href="#status"><span class="octicon octicon-link"></span></a>Status</h3>
+<a id="status--trouble-shooting" class="anchor" href="#status--trouble-shooting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Status &amp; Trouble Shooting</h3>
 
 <p>This project is new and a work in progress. 
 Bugs, issues and improvements are very welcome.</p>
 
-<h3>
-<a name="history" class="anchor" href="#history"><span class="octicon octicon-link"></span></a>History</h3>
+<h4>
+<a id="endif-syntax-error" class="anchor" href="#endif-syntax-error" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Endif syntax error</h4>
 
-<p>** [1.0.0] **</p>
-
-<pre><code>- Initial commit;
+<pre><code>- Docker support;
+- Set "short_open_tag = On" in your php.ini file;
 </code></pre>
 
 <h3>
-<a name="contribute" class="anchor" href="#contribute"><span class="octicon octicon-link"></span></a>Contribute</h3>
+<a id="history" class="anchor" href="#history" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>History</h3>
+
+<p>** [1.0.1] **</p>
+
+<pre><code>- Docker support;
+- Fixes to redirect loop on fresh mongodb install;
+- Short_Open_Tag hotfix;
+</code></pre>
+
+<p>** [1.0.0] **</p>
+
+<pre><code>- First commit;
+</code></pre>
+
+<h3>
+<a id="contribute" class="anchor" href="#contribute" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contribute</h3>
 
 <p>This project started out as a quick fix, for a GUI to support mongo ssl, but I have now 
 decided to continue improving it and share the love.
 Feel free to contribute to MoaDB. Make sure your methods are
 tested on the support browsers, and that any new functionality includes appropriate comments.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/lovetheidea">lovetheidea</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/lovetheidea/MoaDB/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/lovetheidea/MoaDB/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/lovetheidea/MoaDB"></a> is maintained by <a href="https://github.com/lovetheidea">lovetheidea</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
+
+  
   </body>
 </html>
